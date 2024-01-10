@@ -1,0 +1,6 @@
+echo "MIT License" > LICENSE
+
+# Add and commit the file
+git add LICENSE
+git commit -m "Add MIT License"
+git push origin master
