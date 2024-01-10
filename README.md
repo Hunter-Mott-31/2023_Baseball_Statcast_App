@@ -13,6 +13,10 @@ This Shiny app provides statistical analysis and visualizations for MLB players 
 
 The data used in this app was obtained from [Baseball Savant](https://baseballsavant.mlb.com/leaderboard/custom?year=2023&type=batter&filter=&sort=4&sortDir=desc&min=q&selections=xba,xslg,xwoba,xobp,xiso,exit_velocity_avg,launch_angle_avg,barrel_batted_rate,&chart=false&x=xba&y=xba&r=no&chartType=beeswarm). Please make sure to select the necessary stats and player type filters to get the exact data.
 
+See Data Files: 
+pitcher_stats.csv
+hitter_stats.csv
+
 ## How to Use
 
 1. Choose the "Pitcher" tab to explore pitcher statistics visualizations.
@@ -25,7 +29,8 @@ To run the app locally, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Install the required R packages using `install.packages(c("shiny", "shinythemes", "tidyverse", "RColorBrewer", "DT"))`.
-3. Run the app using `shiny::runApp()` in your R console.
+3. Load in MLB_Averages_App.R 
+4. Run the app 
 
 ## Contact
 
