@@ -1,5 +1,7 @@
 # MLB Statcast Analysis App
 
+# # [Link to App](https://analytical-lion.shinyapps.io/mlb-league-average-4/)
+
 ## Overview
 
 This Shiny app provides statistical analysis and visualizations for MLB players based on Statcast data from the 2023 season. It is designed for high school, college, and professional players who want to compare their metrics to the average major leaguer. The app focuses on objective stats such as exit velocity and pitcher velocity for a more accurate comparison.
